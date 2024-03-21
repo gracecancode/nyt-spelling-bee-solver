@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Unofficial NYT Spelling Bee Solver</title>
+</head>
+<body>
+    
+    <!--Header section with title, subtitle, and user instructions-->
+
+    <div id="title-section">
+
+        <div id="title">
+            <div id="title-logo">
+
+            </div>
+            <div id="title-text">
+                <h1>Unofficial NYT Spelling Bee Solver</h1>
+            </div>
+        </div>
+
+        <div id="subtitle">
+            <p class="subtitle">
+                An un-bee-lievably convenient solution to The New York Times' hit daily puzzle.
+            </p>
+        </div>
+
+        <div id="instructions">
+            <div class="instructions-step">
+                <p class="instruction">
+                    Step 1: Enter today's letters in the boxes below. Make sure to put the compulsory letter in the first box!
+                </p>
+            </div>
+            <div class="instructions-step">
+                <p class="instruction">
+                    Step 2: Hit the GO! button to generate a list of answers. You can check off words you've already used using the tickboxes beside them. 
+                </p>
+            </div>
+            <div class="instructions-step">
+                <p class="instruction">
+                    Step 3: Enjoy an extra 10 minutes of peace in your day. Now you don't have to worry about the NYT Spelling Bee ever again!
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Input section for today's letters-->
+
+    <div id="input-section">
+
+        <p class="subtitle">
+            Enter today's letters below:
+        </p>
+
+        <div id="letter-inputs">
+            <div class="key-letter-input-div">
+                <input class="key-letter-input" type="text" size="1" maxlength="1" required autofocus>
+            </div>
+            <div class="letter-input-div">
+                <input class="letter-input" type="text" size="1" maxlength="1" required autofocus>
+            </div>
+            <div class="letter-input-div">
+                <input class="letter-input" type="text" size="1" maxlength="1" required autofocus>
+            </div>
+            <div class="letter-input-div">
+                <input class="letter-input" type="text" size="1" maxlength="1" required autofocus>
+            </div>
+            <div class="letter-input-div">
+                <input class="letter-input" type="text" size="1" maxlength="1" required autofocus>
+            </div>
+            <div class="letter-input-div">
+                <input class="letter-input" type="text" size="1" maxlength="1" required autofocus>
+            </div>
+            <div class="letter-input-div">
+                <input class="letter-input" type="text" size="1" maxlength="1" required autofocus>
+            </div>
+        </div>
+
+        <div id="buttons">
+            <button id="go-btn" class="primary-btn" type="button">GO!</button>
+            <button id="clear-btn" class="secondary-btn" type="button">Clear</button>
+        </div>
+
+    </div>
+
+    <!--Output section for puzzle solutions based on inputs-->
+
+    <div id="output-section">
+
+        <div class="output-column" id="output-column-1"></div>
+        <div class="output-column" id="output-column-2"></div>
+        <div class="output-column" id="output-column-3"></div>
+
+    </div>
+
+</body>
+</html>
