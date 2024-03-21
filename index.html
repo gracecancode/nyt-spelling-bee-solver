@@ -64,34 +64,45 @@
             Enter today's letters below:
         </p>
 
-        <div id="letter-inputs">
-            <div class="key-letter-input-div">
-                <input class="key-letter-input" type="text" size="1" maxlength="1" required autofocus>
-            </div>
-            <div class="letter-input-div">
-                <input class="letter-input" type="text" size="1" maxlength="1" required autofocus>
-            </div>
-            <div class="letter-input-div">
-                <input class="letter-input" type="text" size="1" maxlength="1" required autofocus>
-            </div>
-            <div class="letter-input-div">
-                <input class="letter-input" type="text" size="1" maxlength="1" required autofocus>
-            </div>
-            <div class="letter-input-div">
-                <input class="letter-input" type="text" size="1" maxlength="1" required autofocus>
-            </div>
-            <div class="letter-input-div">
-                <input class="letter-input" type="text" size="1" maxlength="1" required autofocus>
-            </div>
-            <div class="letter-input-div">
-                <input class="letter-input" type="text" size="1" maxlength="1" required autofocus>
-            </div>
-        </div>
+        <form>
 
-        <div id="buttons">
-            <button id="go-btn" class="primary-btn" type="button">GO!</button>
-            <button id="clear-btn" class="secondary-btn" type="button">Clear</button>
-        </div>
+            <div id="letter-inputs">
+                <div class="key-letter-input-div">
+                    <input class="key-letter-input" id="key-letter" type="text" size="1" maxlength="1" required autofocus>
+                    <label for="key-letter" hidden>Key Letter</label>
+                </div>
+                <div class="letter-input-div">
+                    <input class="letter-input" type="text" id="letter-1" size="1" maxlength="1" required autofocus>
+                    <label for="letter-1" hidden>Letter 1</label>
+                </div>
+                <div class="letter-input-div">
+                    <input class="letter-input" type="text" id="letter-2" size="1" maxlength="1" required autofocus>
+                    <label for="letter-2" hidden>Letter 2</label>
+                </div>
+                <div class="letter-input-div">
+                    <input class="letter-input" type="text" id="letter-3" size="1" maxlength="1" required autofocus>
+                    <label for="letter-3" hidden>Letter 3</label>
+                </div>
+                <div class="letter-input-div">
+                    <input class="letter-input" type="text" id="letter-4" size="1" maxlength="1" required autofocus>
+                    <label for="letter-4" hidden>Letter 4</label>
+                </div>
+                <div class="letter-input-div">
+                    <input class="letter-input" type="text" id="letter-5" size="1" maxlength="1" required autofocus>
+                    <label for="letter-5" hidden>Letter 5</label>
+                </div>
+                <div class="letter-input-div">
+                    <input class="letter-input" type="text" id="letter-6" size="1" maxlength="1" required autofocus>
+                    <label for="letter-6" hidden>Letter 6</label>
+                </div>
+            </div>
+
+            <div id="buttons">
+                <button id="go-btn" class="primary-btn" type="button">GO!</button>
+                <button id="clear-btn" class="secondary-btn" type="reset">Clear</button>
+            </div>
+
+        </form>
 
     </div>
 
